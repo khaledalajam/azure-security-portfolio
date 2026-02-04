@@ -1,0 +1,2 @@
+An important consideration for public IP address attached to resources in virtual networks, you'll see here within the overview of this public IP address that's attached to our VM, we've got the standard SKU, not the older basic SKU.
+Importantly for this, that means if we try and access any resource behind a standard public IP address, it's not going to work by default, because we need to configure a network security group to actually allow that access 
