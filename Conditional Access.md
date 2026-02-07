@@ -39,6 +39,21 @@ What this means is that CAP will be there behind the scenes running for all your
 We've created a conditional access policy that uses a named location.
 <img width="1919" height="630" alt="image" src="https://github.com/user-attachments/assets/260c2dd3-a43b-4ef3-9275-3d436e5f21fa" />
 
-If we did want to understand what might happen under certain conditions we can use the What-if section
+If we did want to understand what might happen under certain conditions we can use the What-if section. What-if is a handy tool that helps you to understand what's going to happen when you have one or more conditional access policies. 
+
+What-If is going to go through using all of those settings that I have defined, and check to see what would happen in that condition. 
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/ecd30abb-65e3-4dca-a92f-1b077d82d77b" />
+
+In this scenario, no policies would apply
+<img width="1251" height="689" alt="no policies applied what-if" src="https://github.com/user-attachments/assets/bcd13da4-ea91-4ee5-8d4b-25750a5dc531" />
+
+However, if we go back and say that the IP address isn't 1.2.3.4, it's in fact 1.1.1.1. And this time the access policy will apply. 
+<img width="1381" height="762" alt="what-if applies" src="https://github.com/user-attachments/assets/b26e1aa8-5d5f-48dd-ad1c-734e5a515049" />
+
+So we have seen that our access policy is working. We know that if Ahmed tries to log in from 1.2.3.4, the policy won't apply, and that's because we had that as a trusted location that was exlcuded. 
+
+
+
 
 
