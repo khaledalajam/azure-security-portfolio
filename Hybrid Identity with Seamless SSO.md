@@ -41,6 +41,7 @@ I'm going to myapps.microsoft.com/ entering my domain name. What this means is a
 <img width="1919" height="622" alt="image" src="https://github.com/user-attachments/assets/b8d83538-37b4-45a8-8fdb-0f44394d0c4d" />
 
 Straight into the myapps portal. That is the seamless single sign-on experience for our users.
+
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/310bc004-5868-48d6-ad84-810a92d1a0d4" />
 
 In fact, going back to the Entra Admin Center we see seamless single sign on enabled for my enviroment. Also having configured those user settings with internet security and the status bar update to ensure that auto login experience is seamless.
