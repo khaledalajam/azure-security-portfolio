@@ -1,10 +1,9 @@
 What we're doing in this demo is setting up hybrid identity between our on-premises Active Directory domain and our Entra ID tenant. Additionally we are going to configure seamless single sign on (SSO) to allow for our users to easily access Entra resources using their AD identity, with less prompts for logging in. 
 
-For that to work I of course am going to have a pretend Active Directory Domain services forest, which I do have that already setup. I will be using the Entra Admin Center.
-
+For that to work I of course am going to have a pretend Active Directory Domain services forest, which I do have that already setup.
 <img width="1918" height="825" alt="image" src="https://github.com/user-attachments/assets/da64cd74-1552-414b-a8ac-f5eab85c6bc0" />
 
-What we're going to do within this demo is configure Cloud-Sync, and to do so we're going to setup an agent on our existing domain controller. This is currently running on a virtual machine in Azure, probably more likely in the real world to be running on-premises. Wherever this is we want to go and make sure that we've got that agent installed on a machine that has access to this domain controller, for demonstration purposes we're just going to install that directly on the domain controller.
+I will be using the Entra Administration Center. What we're going to do within this demo is configure Cloud-Sync, and to do so we're going to setup an agent on our existing domain controller. This is currently running on a virtual machine in Azure, probably more likely in the real world to be running on-premises. Wherever this is we want to go and make sure that we've got that agent installed on a machine that has access to this domain controller, for demonstration purposes we're just going to install that directly on the domain controller.
 
 That is the domain that we want. Everything ready to go for this provisioning agent to synchornize identities from on-premises to the cloud. When using Entra Connect Cloud-Sync, it's in the name, just an agent to sync to the cloud. The configuration is going to take place within the portal.
 
